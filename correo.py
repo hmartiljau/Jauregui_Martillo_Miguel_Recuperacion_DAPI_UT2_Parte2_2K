@@ -9,7 +9,7 @@ def create_email(nombre, apellido):
             -la función devolveremos un str con el email resultante.
     '''
     dominio = '@educacion.navarra.es'
-    nombre=nombre[0]
+    nombre = nombre[0]
     apellido=apellido[:5]
     correo = nombre.lower() + apellido.lower() + dominio
     return correo 
